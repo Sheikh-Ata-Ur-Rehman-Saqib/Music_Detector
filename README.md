@@ -1,6 +1,14 @@
 # Music_Detector
 Music vs Speech Detector using KNN and Logistic Regression
 
+# How to use
+
+1. install any python ide like Spyder, Anaconda, or even Google-colab.
+2. open the file named "Realtime_Testing.py" on it.
+3. make sure that the files "extracted_features.pkl", "extracted_labels.pkl", "knn_model.pkl" and "log_reg_model.pkl" are in the same directory as that of python project file.
+4. Run the script on the IDE, and upload any test file using the browse option.
+5. sometimes it still makes mistakes, especially on those files containing lots of noise, but it is staill beneficial project for starters.
+
 # Background:
 Audio classification plays a crucial role in applications like voice assistants, music recommendation systems, and content filtering.
 Differentiating between speech and music is a foundational step for advanced audio processing tasks.
